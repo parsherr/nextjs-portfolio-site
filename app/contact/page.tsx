@@ -14,6 +14,7 @@ import Contact from '@/components/Contact';
 import FadeInSection from '@/components/FadeInSection';
 import PostMail from '@/components/postMail';
 import Schema from '@/components/Schema';
+import WorkTogether from '@/components/WorkTogether';
 
 export default function ContactPage() {
   const discord = SWR('discord');

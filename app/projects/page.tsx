@@ -15,6 +15,8 @@ import ScrollToTop from '@/components/ScrollToTop';
 import FadeInSection from '@/components/FadeInSection';
 import Schema from '@/components/Schema';
 import Repositories from '@/components/Repositories';
+import Stack from '@/components/Stack';
+import WorkTogether from '@/components/WorkTogether';
 
 export default function ProjectsPage() {
   const discord = SWR('discord');
@@ -35,6 +37,9 @@ export default function ProjectsPage() {
         </FadeInSection>
         <FadeInSection>
           <Repositories github={githubUser} />
+        </FadeInSection>
+        <FadeInSection>
+          <WorkTogether />
         </FadeInSection>
       </main>
       <ScrollToTop />

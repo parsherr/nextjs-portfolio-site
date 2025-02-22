@@ -14,7 +14,8 @@ import Contact from '@/components/Contact';
 import FadeInSection from '@/components/FadeInSection';
 import Schema from '@/components/Schema';
 import Footer from '@/components/Footer';
-
+import Stack from '@/components/Stack';
+import WorkTogether from '@/components/WorkTogether';
 export default function Home() {
   const discord = SWR('discord');
   const github = SWR('github');
@@ -42,6 +43,12 @@ export default function Home() {
         </FadeInSection>
         <FadeInSection>
           <Contact />
+        </FadeInSection>
+        <FadeInSection>
+          <Stack />
+        </FadeInSection>
+        <FadeInSection>
+          <WorkTogether />
         </FadeInSection>
       </main>
       <Footer />

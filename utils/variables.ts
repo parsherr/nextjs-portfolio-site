@@ -2,7 +2,46 @@ import { IconType } from 'react-icons';
 import { BsDiscord, BsGithub, BsGoogle, BsInstagram, BsTwitterX, BsYoutube } from 'react-icons/bs';
 import { DiNodejsSmall } from 'react-icons/di';
 import { FaFigma, FaGithub, FaDiscord, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop, SiAdobepremierepro, SiBehance, SiBootstrap, SiBun, SiBuymeacoffee, SiCss3, SiDeviantart, SiDiscord, SiExpress, SiFigma, SiFirebase, SiFramer, SiFramework, SiGatsby, SiGit, SiGlitch, SiInstagram, SiJavascript, SiLua, SiMongodb, SiNextdotjs, SiPatreon, SiPnpm, SiReact, SiReplit, SiRoblox, SiTailwindcss, SiTwitter, SiTypescript, SiUbuntu, SiWindowsterminal, SiX } from 'react-icons/si';
+import {
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobepremierepro,
+  SiBehance,
+  SiBootstrap,
+  SiBun,
+  SiBuymeacoffee,
+  SiCss3,
+  SiDeviantart,
+  SiDiscord,
+  SiExpress,
+  SiFigma,
+  SiFirebase,
+  SiFramer,
+  SiFramework,
+  SiGatsby,
+  SiGit,
+  SiGlitch,
+  SiGo,
+  SiInstagram,
+  SiJavascript,
+  SiLinux,
+  SiLua,
+  SiMongodb,
+  SiNextdotjs,
+  SiPatreon,
+  SiPnpm,
+  SiPython,
+  SiReact,
+  SiReplit,
+  SiRoblox,
+  SiTailwindcss,
+  SiTwitter,
+  SiTypescript,
+  SiUbuntu,
+  SiWindowsterminal,
+  SiX,
+} from 'react-icons/si';
 import { TbBrandBootstrap, TbBrandCSharp, TbBrandDiscord, TbBrandHtml5, TbBrandNextjs, TbBrandNodejs } from 'react-icons/tb';
 
 interface ProjectDetails {
@@ -97,6 +136,30 @@ export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
   {
     name: 'CSS',
     iconURL: SiCss3,
+  },
+  {
+    name: 'Go',
+    iconURL: SiGo,
+  },
+  {
+    name: 'Python',
+    iconURL: SiPython,
+  },
+  {
+    name: 'JavaScript',
+    iconURL: SiJavascript,
+  },
+  {
+    name: 'Node.js',
+    iconURL: TbBrandNodejs,
+  },
+  {
+    name: 'MongoDB',
+    iconURL: SiMongodb,
+  },
+  {
+    name: 'Linux',
+    iconURL: SiLinux,
   },
 ];
 

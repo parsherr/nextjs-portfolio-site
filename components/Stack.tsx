@@ -4,8 +4,11 @@ export default function Stack() {
   return (
     <div className='mt-6 container mx-auto pb-8 w-11/12 sm:pb-10 sm:w-9/12 md:w-7/12'>
       <div className='space-y-2 my-5'>
-        <h3 className='font-semibold text-3xl text-zinc-200 text-center' id='stack'>Stack</h3>
-        <p className="text-center font-semibold text-zinc-400">Languages ​​and technologies I use</p>
+        <div className="flex items-center gap-4 my-8">
+          <div className="h-[1px] flex-1 bg-zinc-800"></div>
+          <h3 className='font-medium text-lg text-zinc-500' id='stack'>Stack</h3>
+          <div className="h-[1px] flex-1 bg-zinc-800"></div>
+        </div>
         <br />
         <div className='mt-4 grid gap-2 sm:grid-cols-3 md:grid-cols-4'>
           {technologiesAndLanguages.map((props, key) => (

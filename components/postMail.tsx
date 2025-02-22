@@ -10,7 +10,7 @@ const PostMail = () => {
     const formData = new FormData(e.currentTarget);
 
     try {
-      const response = await fetch('https://usebasin.com/f/ab5ea105f678', {
+      const response = await fetch(process.env.NEXT_PUBLIC_BASIN_FORM_ENDPOINT || '', {
         method: 'POST',
         body: formData,
         headers: {

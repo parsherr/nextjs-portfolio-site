@@ -1,0 +1,9 @@
+# https://parsher.xyz robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://parsher.xyz/sitemap.xml
+
+# Host
+Host: https://parsher.xyz 

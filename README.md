@@ -1,8 +1,9 @@
 # Personal Portfolio
 
-![SetScript Banner](https://socialify.git.ci/parsherr/parsher.xyz/image?description=1&font=Inter&forks=1&language=1&name=1&owner=1&pattern=Floating+Cogs&stargazers=1&theme=Dark)
+![image](https://github.com/user-attachments/assets/fd1b6deb-5177-4644-9073-d23b554fb612)
 
 Bu proje, Next.js, React, TypeScript ve Tailwind CSS kullanılarak geliştirilen kişisel portföy sitesidir. Kendi projelerimi, becerilerimi ve hakkımda bilgileri içeren modern ve şık bir web sitesi sunar.
+Full Responsive, Discord profil uyumlu, mail post desteklidir
 
 ## 🚀 Özellikler
 
@@ -74,6 +75,17 @@ Projeyi aşağıdaki platformlardan birine kolayca deploy edebilirsiniz:
 - **Vercel**: `vercel`
 - **Netlify**: `netlify deploy`
 - **GitHub Pages**: Statik HTML olarak oluşturup yükleyin
+
+## Demo 
+
+Link :
+
+SS :
+![image](https://github.com/user-attachments/assets/4d3853ce-8442-4c04-b52d-2aadbcd14a11)
+![image](https://github.com/user-attachments/assets/abf3ef56-526a-4e36-a444-d486af901c99)
+![image](https://github.com/user-attachments/assets/c0b76e01-ccd6-44ae-b6f3-585d4253711e)
+
+
 
 ## 📜 Lisans
 
